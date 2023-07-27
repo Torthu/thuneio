@@ -2,7 +2,7 @@ import { FlexCol, FlexRow, Avatar, H1, A, P } from "@/components/atoms";
 
 export default function LeftCol({ lang }: { lang: "en" | "no" }) {
   return (
-    <FlexCol className="mx-auto flex-none gap-8 w-96 print:w-max print:items-start print:mx-0 print:justify-start items-center justify-center">
+    <FlexCol className="mx-auto w-full flex-none gap-8 lg:w-96 print:w-max print:items-start print:mx-0 print:justify-start items-center justify-center">
       <div className="flex flex-col gap-8 items-center justify-center print:justify-left print:flex-row">
         <Avatar
           variant="huge"
