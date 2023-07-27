@@ -1,0 +1,12 @@
+export { default as A } from "./A";
+export { default as BaseComponent } from "./BaseComponent";
+export { default as P } from "./P";
+export { default as H1 } from "./H1";
+export { default as H2 } from "./H2";
+export { default as TextArea } from "./TextArea";
+export { default as Button } from "./Button";
+export { default as MainSection } from "./MainSection";
+export { default as FlexRow } from "./FlexRow";
+export { default as FlexCol } from "./FlexCol";
+export { default as Li } from "./Li";
+export { default as Avatar } from "./Avatar";

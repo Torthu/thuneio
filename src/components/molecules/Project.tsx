@@ -1,0 +1,52 @@
+import { useState } from "react";
+import { Button, FlexCol, FlexRow } from "../atoms";
+import CvDateRange from "./CvDateRange";
+import CvCard from "../atoms/CvCard";
+import ChevronToggle from "../atoms/ChevronToggle";
+
+export default function Project({
+  start,
+  end,
+  client,
+  industry,
+  role,
+  title,
+  summary,
+  lang,
+}: any) {
+  const [toggle, setToggle] = useState<boolean>(false);
+
+  return (
+    <CvCard
+      as={Button}
+      className={`${
+        toggle ? "bg-gray-700" : "bg-gray-700/[.2]"
+      } hover:bg-gray-700`}
+      onClick={() => setToggle(!toggle)}
+    >
+      <FlexRow className="items-center justify-between gap-4">
+        <FlexCol as="h3">
+          <CvDateRange start={start} end={end} />
+          <div className="text-xl font-extrabold print:font-bold print:text-sm">
+            {title[lang]}
+          </div>
+          <div>
+            @ {client} ({industry[lang]})
+          </div>
+        </FlexCol>
+        <ChevronToggle toggle={toggle} />
+      </FlexRow>
+
+      <FlexCol
+        className={`border-l-2 border-gray-600 px-2 gap-2 mt-2 ${
+          toggle ? "" : "hidden"
+        } print:block print:border-0 print:px-0`}
+      >
+        <div>
+          {lang === "en" ? "Role" : "Rolle"}: {role[lang]}
+        </div>
+        <div>{summary[lang]}</div>
+      </FlexCol>
+    </CvCard>
+  );
+}
