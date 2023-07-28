@@ -63,7 +63,7 @@ export default function Cv() {
           English
         </Button>
       </FlexRow>
-      <div className="flex flex-col lg:flex-row items-start justify-center gap-12 max-w-5xl mx-auto p-12 my-12 print:p-2 print:my-2">
+      <div className="flex flex-col lg:flex-row items-start justify-center gap-12 max-w-5xl mx-auto p-6 lg:p-12 my-12 print:p-2 print:my-2">
         <LeftCol lang={lang} />
         <RightCol lang={lang} />
       </div>
