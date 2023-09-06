@@ -178,6 +178,19 @@ const data = {
 
   projects: [
     {
+      start: new Date(2023, 9),
+      end: new Date(),
+      client: "KS Fiks",
+      employer: "Rainfall",
+      title: { no: "KS Fiks", en: "KS Fiks" },
+      industry: { no: "Offentlig sektor", en: "Public Sector" },
+      role: { no: "Seniorutvikler", en: "Senior Developer" },
+      summary: {
+        no: "Vedlikehold og videreutvikling av KS' fiks platform, som inneholder bl.a innbyggerrettede tjenester som \"Min Kommune\".",
+        en: "Development and maintenance of KS' fiks platform, that contains, amongst other services, citizen directed services such as \"Min Kommune\" (\"My County\").",
+      },
+    },
+    {
       start: new Date(2022, 9),
       end: new Date(2022, 11),
       client: "Sbanken",
