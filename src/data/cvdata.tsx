@@ -180,7 +180,7 @@ const data = {
     {
       start: new Date(2023, 9),
       end: new Date(),
-      client: "KS Fiks",
+      client: "KS Digitale Fellestjenester AS",
       employer: "Rainfall",
       title: { no: "KS Fiks", en: "KS Fiks" },
       industry: { no: "Offentlig sektor", en: "Public Sector" },
