@@ -9,7 +9,7 @@ interface SubmenuProps extends BaseComponentProps {
  * Simple component for displaying a "pop-up" menu.
  *
  */
-export default function Submenu({
+export default function SubMenu({
   as = "div",
   className = "",
   ToggleButton,

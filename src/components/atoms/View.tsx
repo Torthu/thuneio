@@ -9,5 +9,7 @@ export default function View({ title, ...rest }: ViewProps) {
   useEffect(() => {
     document.title = title;
   }, [title]);
-  return <BaseComponent className="max-w-5xl mx-auto" {...rest} />;
+  return (
+    <BaseComponent className="max-w-5xl mx-auto min-h-screen p-20" {...rest} />
+  );
 }

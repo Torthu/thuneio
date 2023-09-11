@@ -9,7 +9,7 @@ export default function LeftCol({ lang }: { lang: "en" | "no" }) {
           className="print:w-16 print:h-16"
           avatar="torstein.jpeg"
         />
-        <H1 className="flex flex-col gap-2 justify-center items-center print:gap-1 print:items-start print:text-left">
+        <H1 className="flex flex-col gap-2 justify-center items-center print:gap-1 print:items-start print:text-left text-center">
           <span>Torstein Thune</span>
           <span className="font-light">
             {lang === "en"
