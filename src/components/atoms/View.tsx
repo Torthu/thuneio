@@ -14,7 +14,7 @@ export default function View({ title, ...rest }: ViewProps) {
     <>
       <BaseComponent className="max-w-5xl mx-auto min-h-screen relative flex flex-col relative gap-4">
         <TopNavigation />
-        <BaseComponent className="flex flex-col relative gap-4 px-20 lg:px-0">
+        <BaseComponent className="flex flex-col relative gap-4 px-16 lg:px-8 xl:px-0">
           <BaseComponent {...rest} />
         </BaseComponent>
       </BaseComponent>
