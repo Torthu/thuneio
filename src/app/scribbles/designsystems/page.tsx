@@ -41,7 +41,7 @@ export default function DesignSystems() {
       <SectionHeader className="mt-8 mb-6">Governments</SectionHeader>
       <P>
         Official design systems for services provided by governments. There may
-        be more systems in a country's public sector (see section below).
+        be more systems in a country&apos;s public sector (see section below).
       </P>
       <ul>
         <Li>
