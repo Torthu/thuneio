@@ -1,26 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import {
-  Avatar,
-  Button,
-  FlexCol,
-  H1,
-  A,
-  BaseComponent,
-  FlexRow,
-} from "../../components/atoms";
+import { Button, FlexRow } from "../../components/atoms";
 import View from "../../components/atoms/View";
-import Education from "../../components/molecules/Education";
-import Employer from "../../components/molecules/Employer";
-import Project from "../../components/molecules/Project";
-import SectionHeader from "../../components/atoms/SectionHeader";
-import {
-  AcademicCapIcon,
-  BuildingOfficeIcon,
-  ComputerDesktopIcon,
-} from "@heroicons/react/24/solid";
-import cvdata from "@/data/cvdata";
 import LeftCol from "./LeftCol";
 import RightCol from "./RightCol";
 

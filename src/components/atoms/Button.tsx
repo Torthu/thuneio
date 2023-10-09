@@ -9,6 +9,8 @@ const variants = {
   icon: "rounded-full bg-gray-600 p-1 text-white hover:bg-gray-400 hover:text-black focus:bg-gray-400 focus:text-black active:bg-gray-300 active:text-black",
   disabled:
     "rounded bg-gray-600 px-2 py-1 font-medium text-white hover:bg-gray-700",
+  navigation:
+    "p-2 border text-sm border-gray-700 hover:bg-gray-700 hover:cursor-pointer rounded-lg",
 };
 
 /** Button

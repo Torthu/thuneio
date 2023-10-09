@@ -4,6 +4,7 @@ const colors = ["#aabbcc"];
 
 const variants = {
   default: "my-auto h-8 w-8 rounded-full",
+  smallSquare: "my-auto h-10 w-10 rounded-lg",
   small: "my-auto h-8 w-8 rounded-full",
   medium: "my-auto h-14 w-14 rounded-full",
   large: "my-auto h-20 w-20 rounded-full",
@@ -13,6 +14,7 @@ const variants = {
 const initialsVariants = {
   default: "text-sm text-slate-900",
   small: "text-sm text-slate-900",
+  smallSquare: "text-sm text-slate-900",
   medium: "text-xl text-slate-900",
   large: "text-2xl text-slate-900",
   huge: "text-4xl text-slate-900",
