@@ -176,6 +176,29 @@ const data = {
     },
   ],
 
+  hobbyProjects: [
+    {
+      start: new Date(2020, 9),
+      end: new Date(),
+      client: undefined,
+      employer: undefined,
+      title: { no: "Microbrew.it", en: "Microbrew.it" },
+      technologies: [
+        "Next",
+        "Electron",
+        "Ionic",
+        "React",
+        "Tailwind",
+        "Vite",
+        "Typescript",
+      ],
+      summary: {
+        no: "Nettsted og applikasjon med informasjon og kalkulatorer for ølbrygging.",
+        en: "Website and application with information and calculators for beer brewing.",
+      },
+    },
+  ],
+
   projects: [
     {
       start: new Date(2023, 9),
@@ -185,9 +208,10 @@ const data = {
       title: { no: "KS Fiks", en: "KS Fiks" },
       industry: { no: "Offentlig sektor", en: "Public Sector" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
+      technologies: ["Angular", "NGRX", "NX", "SASS", "Typescript"],
       summary: {
-        no: "Vedlikehold og videreutvikling av KS' fiks platform, som inneholder bl.a innbyggerrettede tjenester som \"Min Kommune\".",
-        en: "Development and maintenance of KS' fiks platform, that contains, amongst other services, citizen directed services such as \"Min Kommune\" (\"My County\").",
+        no: 'Vedlikehold og videreutvikling av KS\' fiks platform, som inneholder bl.a innbyggerrettede tjenester som "Min Kommune".',
+        en: 'Development and maintenance of KS\' fiks platform, that contains, amongst other services, citizen directed services such as "Min Kommune" ("My County").',
       },
     },
     {
@@ -198,6 +222,15 @@ const data = {
       title: { no: "Betalingsgrenser", en: "Payment limits" },
       industry: { no: "Bank og Finans", en: "Banking" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
+      technologies: [
+        "React",
+        "Redux",
+        "Redux-Sagas",
+        "Styled Components",
+        "Typescript",
+        "Webpack",
+        "Turbo",
+      ],
       summary: {
         no: "Sbanken ville innføre betalingsgrenser for overføringer og betalinger både innenlands og utenlands. Gjennom prosjektet implementerte vi både konfigurasjonsmuligheter for beløpsgrenser samt validering og feilhåndtering i de ulike betalingsskjermene.",
         en: "Sbanken wanted to introduce payment limits for transfers and payments both domestically and internationally. Through the project we implemented both a micro frontend react application for configuration of payment limits as well as validation and error handlig for the different payment forms.",
@@ -212,6 +245,7 @@ const data = {
         no: "Selvbetjent salg av Frendes personforsikringsprodukter",
         en: "Self-service sales of Frende's life insurance products.",
       },
+      technologies: ["React", "React Hooks", "Typescript", "SVG", "SCSS"],
       industry: { no: "Forsikring", en: "Insurance" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
@@ -228,6 +262,13 @@ const data = {
         no: "Ny nettbutikk",
         en: "New web shop",
       },
+      technologies: [
+        "React",
+        "React Hooks",
+        "Typescript",
+        "Javascript",
+        "SCSS",
+      ],
       industry: { no: "Forsikring", en: "Insurance" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
@@ -244,7 +285,8 @@ const data = {
         no: "Interaktiv fotballgrafikk til Cyta",
         en: "Interactive football graphics for Cyta",
       },
-      industry: { no: "Media", en: "Media" },
+      technologies: ["Coffeescript", "Javascript", "Android", "SCSS"],
+      industry: { no: "Media", en: "Media/TV" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
         no: "Cyta, en tv og telekomaktør på Kypros, ønsket å forbedre sine fotballsendinger ved å tilby interaktiv grafikk med blant annet lagoppstilling, ligatabell og foreløpige resultat i samtidige kamper. Dette ble av Cyta definert som et testprosjekt for å se om slike interaktive funksjoner via TV-dekoder virket konkurransefremmende. Torstein sin rolle var frontend-arkitektur og utvikling av disse skjermene.",
@@ -261,7 +303,8 @@ const data = {
         no: "Nytt brukergrensesnitt til Vivacoms TV-dekoder",
         en: "New UI for Vivacom's set-top Box",
       },
-      industry: { no: "Media", en: "Media" },
+      technologies: ["Coffeescript", "Javascript", "Android", "SCSS", "Grunt"],
+      industry: { no: "Media", en: "Media/TV" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
         no: "Vivacom, det største teleselskapet i Bulgaria, ønsket å oppgradere TV-opplevelsen på sine TV-dekodere. Torstein bidro i rollen som arkitekt, inkludert verifisering av hvorvidt TV-boksen og den inkluderte nettleseren til Vivacom støttet komponentene til Sixtys TV-UI-rammeverk.",
@@ -278,7 +321,8 @@ const data = {
         no: "Nytt brukergrensesnitt til Telekom Srbijas TV-dekoder",
         en: "New UI for Telekom Srbija's tet-top Box",
       },
-      industry: { no: "Media", en: "Media" },
+      technologies: ["Coffeescript", "Javascript", "Android", "SCSS", "Grunt"],
+      industry: { no: "Media", en: "Media/TV" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
         no: "Serbia Telekom, det største teleselskapet i Serbia, ønsket å oppgradere TV-opplevelsen på sine TV-dekodere. Torstein bidro gjennom å få en første versjon av brukergrensesnittet til å kjøre på boksene sammen med et demo-api i forbindelse med salgsprosessen.",
@@ -295,7 +339,15 @@ const data = {
         no: "Agile TV",
         en: "Agile TV",
       },
-      industry: { no: "Media", en: "Media" },
+      technologies: [
+        "Coffeescript",
+        "Javascript",
+        "Android",
+        "Android TV",
+        "SCSS",
+        "Grunt",
+      ],
+      industry: { no: "Media", en: "Media/TV" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
         no: "MasMovil, et spansk telekomselskap, ønsket å gjøre et inntog i TV-distributør-markedet gjennom et nytt produkt kalt Agile TV. Prosjektet var å implementere en fullverdig smarttv-boks sammen med partnere Huawei, Technicolor og Google. Sammen laget vi en systemapplikasjon med blant annet en egen applikasjonslauncher, kanalliste med stømmer og data fra både digitalt bakkenett, Huaweis strømmeplattform og andre applikasjoner på Android TV-boksen. Systemapplikasjonen ble sertifisert av Google. Torstein sin oppgave var innsamling av funksjonelle krav, modellering og implementasjon av brukergrensesnittet.",
@@ -312,7 +364,8 @@ const data = {
         no: "Ease TV",
         en: "Ease TV",
       },
-      industry: { no: "Medieteknologi", en: "Media Tech" },
+      technologies: ["Coffeescript", "SVG", "HTML", "SCSS", "Grunt"],
+      industry: { no: "Medieteknologi", en: "Media/TV" },
       role: { no: "Techlead, Arkitekt", en: "Tech Lead, Architect" },
       summary: {
         no: "Sixty ønsket å styrke sin posisjon som en ledende aktør innen brukergrensesnitt til smart tv applikasjoner. Som del av dette ble et «white label» TV-grensesnitt kalt Ease TV utviklet. Torstein sin rolle var å stå for arkitektur, inkludert modellering og abstraksjoner for interaksjon med både ulike innholds-APIer og ulike system-APIer på ulike smartplattformer. Torstein var også sentral i arbeidet med å få en egen system-wrapper-apk til Android-bokser å bli godkjent av Google.",
@@ -329,7 +382,8 @@ const data = {
         no: "Nytt dekoder-brukersnitt til Altibox",
         en: "New set-top box UI for Altibox",
       },
-      industry: { no: "Medieteknologi", en: "Media Tech" },
+      technologies: ["Coffeescript", "Android", "SCSS", "HTML", "Grunt"],
+      industry: { no: "Medieteknologi", en: "Media/TV" },
       role: { no: "Seniorutvikler", en: "Senior Developer" },
       summary: {
         no: "Altibox ønsket å styrke sin posisjon som en ledende TV-distributør i Norge. Sammen med samarbeidspartnere Huawei og Sixty leverte de ny infrastruktur, ny TV-boks og det da best likte TV-brukergrensesnittet i Norge. Torstein var sentral i utviklingen av blant annet TV-guiden og data-abstraksjonslag. Torstein jobbet også som del av prosjektet en periode i Nanjing, Kina, der Huawei har sin testorganisasjon og utviklingsavdeling for Android til TV-bruk.",
@@ -346,7 +400,8 @@ const data = {
         no: "Portal og TV-arkiv",
         en: "Portal and TV archive",
       },
-      industry: { no: "Medieteknologi", en: "Media" },
+      technologies: ["Coffeescript", "SVG", "Grunt"],
+      industry: { no: "Medieteknologi", en: "Media/TV" },
       role: { no: "Utvikler", en: "Developer" },
       summary: {
         no: 'RiksTV ønsket å styrke sin posisjon innenfor strømming. Som del av satsningen ble det implementert en forside ("portal") og en arkiv-applikasjon "ukesarkiv" for å fronte alt innholdet RiksTV kunne tilby fra sine kanaler. Torstein stod for all brukergrensesnitt-utvikling på TV-boksen.',
@@ -363,7 +418,8 @@ const data = {
         no: "SF-kids/Barnas Favoritter",
         en: "SF-kids",
       },
-      industry: { no: "Media", en: "Media" },
+      technologies: ["Coffeescript", "SVG", "Grunt"],
+      industry: { no: "Media", en: "Media/TV" },
       role: { no: "Utvikler", en: "Developer" },
       summary: {
         no: 'Som del av RiksTVs fokus på strømming av "video on demand" utviklet Torstein flere applikasjoner. Et eksempel er strømmeapplikasjonen SF-kids (i starten kalt Barnas Favoritter) som var en tilpasset applikasjon for strømming av barneinnhold.',

@@ -12,6 +12,7 @@ export default function Project({
   role,
   title,
   summary,
+  technologies,
   lang,
 }: any) {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -30,9 +31,14 @@ export default function Project({
           <div className="text-xl font-extrabold print:font-bold print:text-sm">
             {title[lang]}
           </div>
-          <div>
-            @ {client} ({industry[lang]})
-          </div>
+          <div className="text-sm my-2">{technologies.join(", ")}</div>
+          {(client || industry) && (
+            <>
+              <div>
+                @ {client} {industry && <>({industry[lang]})</>}
+              </div>
+            </>
+          )}
         </FlexCol>
         <ChevronToggle toggle={toggle} />
       </FlexRow>
@@ -42,9 +48,11 @@ export default function Project({
           toggle ? "" : "hidden"
         } print:block print:border-0 print:px-0`}
       >
-        <div>
-          {lang === "en" ? "Role" : "Rolle"}: {role[lang]}
-        </div>
+        {role && (
+          <div>
+            {lang === "en" ? "Role" : "Rolle"}: {role[lang]}
+          </div>
+        )}
         <div>{summary[lang]}</div>
       </FlexCol>
     </CvCard>

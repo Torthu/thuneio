@@ -47,6 +47,17 @@ export default function RightCol({ lang }: { lang: "no" | "en" }) {
       {cvdata.projects.map((project, i) => (
         <Project key={`project-${i}`} {...project} lang={lang} />
       ))}
+
+      <SectionHeader className="mt-4">
+        <FlexRow className="gap-2">
+          <ComputerDesktopIcon className="w-6 h-6 print:hidden" />
+          {lang === "en" ? "Hobby Projects" : "Hobbyprosjekter"}
+        </FlexRow>
+      </SectionHeader>
+
+      {cvdata.hobbyProjects.map((project, i) => (
+        <Project key={`project-${i}`} {...project} lang={lang} />
+      ))}
     </FlexCol>
   );
 }
