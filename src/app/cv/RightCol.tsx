@@ -17,6 +17,24 @@ export default function RightCol({ lang }: { lang: "no" | "en" }) {
 
       <SectionHeader className="mt-4">
         <FlexRow className="gap-2 items-center">
+          <ComputerDesktopIcon className="w-6 h-6 print:hidden" />
+          {lang === "en" ? "Technologies" : "Teknologi"}
+        </FlexRow>
+      </SectionHeader>
+      {cvdata.projects
+        .concat(cvdata.hobbyProjects as any)
+        .map((project) => project.technologies)
+        .flat()
+        .reduce((acc: string[], tech) => {
+          if (!acc.includes(tech)) {
+            acc.push(tech);
+          }
+          return acc;
+        }, [])
+        .join(", ")}
+
+      <SectionHeader className="mt-4">
+        <FlexRow className="gap-2 items-center">
           <AcademicCapIcon className="w-6 h-6 print:hidden" />
           {lang === "en" ? "Education" : "Utdanning"}
         </FlexRow>
