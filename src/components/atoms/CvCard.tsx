@@ -5,7 +5,7 @@ export default function CvCard({
   className = "",
   ...rest
 }: BaseComponentProps) {
-  const innerClasses = "text-left text-white rounded-md p-2 print:p-0";
+  const innerClasses = "text-left text-white rounded-md p-4 print:p-0";
 
   return <FlexCol className={`${innerClasses} ${className}`} {...rest} />;
 }
