@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import BaseComponent, { BaseComponentProps } from "./BaseComponent";
 import TopNavigation from "../organisms/TopNavigation";

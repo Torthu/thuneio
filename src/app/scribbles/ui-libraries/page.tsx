@@ -1,5 +1,3 @@
-"use server";
-
 import { A, FlexCol, H1, P, SectionHeader, View } from "@/components";
 
 export default function UILibraries() {
