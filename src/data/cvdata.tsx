@@ -68,10 +68,35 @@ const data = {
   ],
   employers: [
     {
+      company: "REN As",
+      industry: { no: "", en: "" },
+      start: new Date(2025, 1),
+      end: new Date(),
+      role: {
+        no: "Seniorutvikler",
+        en: "Senior Developer",
+      },
+      summary: {
+        no: (
+          <>
+            Torstein arbeider i dag som en senior frontend-utvikler hos{" "}
+            <A href="https://ren.no">Ren</A>.
+          </>
+        ),
+        en: (
+          <>
+            Torstein is currently working as a senior front-end developer at{" "}
+            <A href="https://ren.no">Ren</A>.
+          </>
+        ),
+      },
+    },
+
+    {
       company: "Rainfall",
       industry: { no: "Konsulenthus", en: "Consultancy" },
       start: new Date(2022, 6),
-      end: new Date(),
+      end: new Date(2024, 12),
       role: {
         no: "Seniorkonsulent",
         en: "Senior Consultant",
@@ -79,14 +104,14 @@ const data = {
       summary: {
         no: (
           <>
-            Torstein arbeider i dag som en senior frontend-utvikler hos{" "}
+            Jobbet som seniorkonsulent hos{" "}
             <A href="https://rainfall.no">Rainfall</A>.
           </>
         ),
         en: (
           <>
-            Torstein is currently working as a senior front-end developer
-            consultant at <A href="https://rainfall.no">Rainfall</A>.
+            Worked as a senior consultant at{" "}
+            <A href="https://rainfall.no">Rainfall</A>.
           </>
         ),
       },
@@ -202,7 +227,7 @@ const data = {
   projects: [
     {
       start: new Date(2023, 9),
-      end: new Date(),
+      end: new Date(2024, 9),
       client: "KS Digitale Fellestjenester AS",
       employer: "Rainfall",
       title: { no: "KS Fiks", en: "KS Fiks" },
