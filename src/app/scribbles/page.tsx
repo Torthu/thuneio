@@ -9,6 +9,20 @@ export default function DesignSystems() {
         <H1 className="mb-4">Notes and scribbles</H1>
         <FlexCol className="gap-2">
           <SectionHeader>
+            <A as="a" href="/scribbles/digital-uavhengighet-hva-med-appene">
+              Digital uavhengighet: hva med alle disse viktige appene da?
+              (Norwegian)
+            </A>
+          </SectionHeader>
+          <FlexRow className="gap-2">
+            <DateDisplay as="span" date={new Date("2025-09-30")} />
+            <span>
+              {" "}
+              Vi har solgt sjelen til amerikanske IT-monopolister, er det så
+              lurt da?
+            </span>
+          </FlexRow>
+          <SectionHeader>
             <A as="a" href="/scribbles/designsystems">
               Design Systems
             </A>

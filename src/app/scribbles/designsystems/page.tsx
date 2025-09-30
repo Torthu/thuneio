@@ -1,5 +1,6 @@
 "use client";
-import { H1, A, View, SectionHeader, P, Li } from "@/components";
+import { A, View, P, Li } from "@/components";
+import { H1, SectionHeader } from "@torthu/jacketui-components";
 
 export default function DesignSystems() {
   return (
