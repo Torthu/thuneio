@@ -27,9 +27,9 @@ export default function Page() {
           Mens man på iOS aldri har hatt mulighet til å bevege seg utenfor Apple
           sitt eget økosystem har man på Android siden starten kunnet installere
           egne applikasjoner, såkalte apk-er, utenom Google Play. Dette kalles
-          "sideloading". Dette er en prosess som kan virke innviklet og skummelt
-          for den jevne bruker, men har latt et rikt økosystem av uavhengige
-          applikasjoner blomstre litt utenfor allfarvei.
+          &quot;sideloading&quot;. Dette er en prosess som kan virke innviklet
+          og skummelt for den jevne bruker, men har latt et rikt økosystem av
+          uavhengige applikasjoner blomstre litt utenfor allfarvei.
         </P>
         <P>
           En alternativ appbutikk, som utelukkende består av{" "}
@@ -121,7 +121,7 @@ export default function Page() {
 
         <SectionHeader>Videre lesning</SectionHeader>
         <A href="https://f-droid.org/2025/09/29/google-developer-registration-decree.html">
-          F-Droid and Google's Developer Registration Decree (29. september
+          F-Droid and Google&apos;s Developer Registration Decree (29. september
           2025; engelsk)
         </A>
       </FlexCol>
