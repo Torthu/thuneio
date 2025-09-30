@@ -9,6 +9,18 @@ const variants = {
 /** Li
  * Basic list item <li>
  *
+ * @example Unordered list
+ *   <ul>
+ *     <Li>Item 1</Li>
+ *     <Li>Item 2</Li>
+ *   </ul>
+ * @example Ordered list
+ *   <ol>
+ *    <Li variant="decimal">Item 1</Li>
+ *    <Li variant="decimal">Item 2</Li>
+ *   </ol>
+ *
+ * @param {string} variant "default" | "disc" | "decimal" - list style type
  * @returns ReactNode
  */
 export default function Li({

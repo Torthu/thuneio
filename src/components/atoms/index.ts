@@ -8,6 +8,7 @@ export { default as FlexCol } from "./FlexCol";
 export { default as FlexRow } from "./FlexRow";
 export { default as H1 } from "./H1";
 export { default as H2 } from "./H2";
+export { default as H3 } from "./H3";
 export { default as Li } from "./Li";
 export { default as MainSection } from "./MainSection";
 export { default as P } from "./P";
