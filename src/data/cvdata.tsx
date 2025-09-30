@@ -68,7 +68,7 @@ const data = {
   ],
   employers: [
     {
-      company: "REN As",
+      company: "REN AS",
       industry: { no: "", en: "" },
       start: new Date(2025, 1),
       end: new Date(),
