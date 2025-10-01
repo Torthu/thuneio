@@ -16,7 +16,7 @@ export default function LeftCol({ lang }: { lang: "en" | "no" }) {
               ? "Senior Front-end developer"
               : "Senior frontend-utvikler"}{" "}
             <div>
-              @ <A href="https://rainfall.no">Rainfall AS</A>
+              @ <A href="https://ren.no">REN AS</A>
             </div>
           </span>
         </H1>
