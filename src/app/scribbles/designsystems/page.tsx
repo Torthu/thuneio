@@ -4,7 +4,7 @@ import { H1, SectionHeader } from "@torthu/jacketui-components";
 
 export default function DesignSystems() {
   return (
-    <View title="Design systems overview">
+    <>
       <H1 className="mb-4">Design systems</H1>
       <P>
         This is my personal collection of design systems from both the public
@@ -274,6 +274,6 @@ export default function DesignSystems() {
           <A href="https://jdan.github.io/98.css/">98.css: Windows 98</A>
         </Li>
       </ul>
-    </View>
+    </>
   );
 }
