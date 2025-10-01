@@ -69,7 +69,7 @@ const data = {
   employers: [
     {
       company: "REN AS",
-      industry: { no: "", en: "" },
+      industry: { no: "Energi", en: "Energy" },
       start: new Date(2025, 1),
       end: new Date(),
       role: {
@@ -225,6 +225,20 @@ const data = {
   ],
 
   projects: [
+    {
+      start: new Date(2025, 1),
+      end: new Date(),
+      client: "REN AS",
+      employer: "REN AS",
+      title: { no: "Netlin", en: "Netlin" },
+      industry: { no: "Energiteknologi", en: "Energy Tech" },
+      role: { no: "Seniorutvikler", en: "Senior Developer" },
+      technologies: ["React", "Next.js", "MapLibre", "Three.js", "Typescript"],
+      summary: {
+        no: "Utvikling av web-versjon av Netlin, et verktøy for planlegging av strømluftnett.",
+        en: "Development of a web version of Netlin, a tool for planning overhead power line networks.",
+      },
+    },
     {
       start: new Date(2023, 9),
       end: new Date(2024, 9),
