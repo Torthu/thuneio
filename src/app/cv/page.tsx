@@ -24,7 +24,7 @@ export default function Cv() {
   }, []);
 
   return (
-    <View title="Torstein Thune CV" as="main" className="print:text-xs">
+    <View as="main" className="print:text-xs">
       <FlexRow className="print:hidden text-white justify-end mb-8 absolute top-4 right-4">
         <Button
           title="Bytt språk til norsk"

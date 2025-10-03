@@ -1,9 +1,11 @@
-"use client";
-
 import { A } from "@/components";
 import DateDisplay from "@/components/atoms/DateDisplay";
 import { FlexCol, FlexRow, H1, H2 } from "@torthu/jacketui-components";
-import Link from "next/link";
+
+export const metadata = {
+  title: "Torstein's scribbles",
+  description: "A collection of notes and scribbles.",
+};
 
 export default function DesignSystems() {
   return (
@@ -14,10 +16,9 @@ export default function DesignSystems() {
         <H2>
           <A href="/scribbles/digital-uavhengighet-hva-med-appene">
             Digital uavhengighet: hva med alle disse viktige appene da?
-            (Norwegian)
           </A>
         </H2>
-        <FlexRow className="gap-2">
+        <FlexRow className="flex-col md:flex-row gap-2">
           <DateDisplay as="span" date={new Date("2025-09-30")} />
           <span>
             {" "}
@@ -31,7 +32,7 @@ export default function DesignSystems() {
         <H2>
           <A href="/scribbles/designsystems">Design Systems</A>
         </H2>
-        <FlexRow className="gap-2">
+        <FlexRow className="flex-col md:flex-row gap-2">
           <DateDisplay as="span" date={new Date("2023-09-04")} />
           <span>A quick list of design systems for future inspiration.</span>
         </FlexRow>

@@ -1,4 +1,4 @@
-import { A, H1, Li, P, View } from "@/components";
+import { A, H1, Li, P } from "@/components";
 import DateDisplay from "@/components/atoms/DateDisplay";
 import { FlexRow, SectionHeader } from "@torthu/jacketui-components";
 
@@ -15,9 +15,11 @@ export default function Page() {
       <H1>Digital uavhengighet: hva med alle disse viktige appene da?</H1>
       <FlexRow variant="tight">
         Publisert <DateDisplay as="span" date={new Date("2025-09-30")} />
+        Oppdatert <DateDisplay as="span" date={new Date("2025-10-03")} />
       </FlexRow>
       <P>
-        Vi har solgt sjelen til amerikanske IT-monopolister, er det så lurt da?
+        Kritisk norsk infrastruktur som BankID må fungere, men vi har solgt
+        sjelen til amerikanske IT-monopolister, er det så lurt da?
       </P>
 
       <SectionHeader>Apper og appbutikker er praktisk</SectionHeader>
@@ -66,10 +68,10 @@ export default function Page() {
         siden har EU satt krav om at man skal kunne{" "}
         <A href="https://support.apple.com/en-gb/117767">
           installere applikasjoner fra alternative kilder på iOS
-        </A>
-        . På den andre siden har Google, kanskje inspirert av hvordan Apple
-        kjemper mot kravene, sagt at de skal kreve såkalt attestering av
-        apputviklere fra og med neste år.
+        </A>{" "}
+        gjennom sin forordning om digitale markeder (DMA). På den andre siden
+        har Google, kanskje inspirert av hvordan Apple kjemper mot kravene, sagt
+        at de skal kreve såkalt attestering av apputviklere fra og med neste år.
       </P>
       <P>
         Attestering betyr at alle applikasjoner som installeres, uavhengig av om
@@ -97,24 +99,24 @@ export default function Page() {
         følgende applikasjoner, ville disse fungert uten Google og Apple?
       </P>
       <ol>
-        <Li>Posten (logistikk)</Li>
-        <Li>Sparebanken Norge (Bank)</Li>
-        <Li>Sparebank1 Engangskode (Autentisering)</Li>
-        <Li>Vipps (Bank)</Li>
-        <Li>Skyss Billett (Transport)</Li>
-        <Li>Sparebank1 Mobilbank (Bank)</Li>
-        <Li>Nordnet (Bank)</Li>
         <Li>BankID (Autentisering)</Li>
         <Li>Entur (Transport)</Li>
-        <Li>Norwegian (Transport)</Li>
-        <Li>Ruter (Transport)</Li>
-        <Li>RuterBillett (Transport)</Li>
-        <Li>Vy (Transport)</Li>
-        <Li>PostNord Norge (Logistikk)</Li>
         <Li>Helsenorge (Informasjon)</Li>
         <Li>Nordea Mobile (Bank)</Li>
+        <Li>Nordnet (Bank)</Li>
+        <Li>Norwegian (Transport)</Li>
         <Li>Politiloggen (Informasjon)</Li>
+        <Li>Posten (logistikk)</Li>
+        <Li>PostNord Norge (Logistikk)</Li>
+        <Li>Ruter (Transport)</Li>
+        <Li>RuterBillett (Transport)</Li>
+        <Li>Skyss Billett (Transport)</Li>
+        <Li>Sparebank1 Engangskode (Autentisering)</Li>
+        <Li>Sparebanken Norge (Bank)</Li>
+        <Li>Sparebank1 Mobilbank (Bank)</Li>
         <Li>Vigilo (Informasjon)</Li>
+        <Li>Vipps (Bank)</Li>
+        <Li>Vy (Transport)</Li>
       </ol>
 
       <SectionHeader>Hva kan vi gjøre?</SectionHeader>
@@ -129,11 +131,14 @@ export default function Page() {
         finske <A href="https://sailfishos.org/">SailfishOS</A>.
       </P>
 
-      <SectionHeader>Videre lesning</SectionHeader>
-      <A href="https://f-droid.org/2025/09/29/google-developer-registration-decree.html">
-        F-Droid and Google&apos;s Developer Registration Decree (29. september
-        2025; engelsk)
-      </A>
+      <SectionHeader>Endingeslogg</SectionHeader>
+      <ul>
+        <Li>
+          <DateDisplay as="span" date={new Date("2025-10-03")} />: La til lenke
+          til Forordning om digitale markeder (DMA) og sorterte applisten
+          alfabetisk.
+        </Li>
+      </ul>
     </>
   );
 }

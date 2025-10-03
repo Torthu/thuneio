@@ -1,17 +1,21 @@
-"use client";
-import { A, View, P, Li } from "@/components";
+import { A, P, Li } from "@/components";
 import { H1, SectionHeader } from "@torthu/jacketui-components";
+
+export const metadata = {
+  title: "Design Systems",
+  description: "A quick list of design systems for future inspiration.",
+};
 
 export default function DesignSystems() {
   return (
     <>
-      <H1 className="mb-4">Design systems</H1>
+      <H1>Design systems</H1>
       <P>
         This is my personal collection of design systems from both the public
         and private sectors, both foreign and domestic (Norwegian).
       </P>
 
-      <SectionHeader className="mt-8 mb-6">Frameworks / Industry</SectionHeader>
+      <SectionHeader>Frameworks / Industry</SectionHeader>
       <P>Design systems meant for use in your own websites/apps.</P>
       <ul>
         <Li>
@@ -39,7 +43,7 @@ export default function DesignSystems() {
         </Li>
       </ul>
 
-      <SectionHeader className="mt-8 mb-6">Governments</SectionHeader>
+      <SectionHeader>Governments</SectionHeader>
       <P>
         Official design systems for services provided by governments. There may
         be more systems in a country&apos;s public sector (see section below).
@@ -112,7 +116,7 @@ export default function DesignSystems() {
         </Li>
       </ul>
 
-      <SectionHeader className="mt-8 mb-6">Public Sector</SectionHeader>
+      <SectionHeader>Public Sector</SectionHeader>
       <P>Design systems meant for use by public sector.</P>
       <ul>
         <Li>
@@ -158,7 +162,7 @@ export default function DesignSystems() {
         </Li>
       </ul>
 
-      <SectionHeader className="mt-8 mb-6">Private Sector</SectionHeader>
+      <SectionHeader>Private Sector</SectionHeader>
       <P>
         Design systems meant for internal developement teams/development for
         private sector products.
@@ -254,7 +258,7 @@ export default function DesignSystems() {
         </Li>
       </ul>
 
-      <SectionHeader className="mt-8 mb-6">Other</SectionHeader>
+      <SectionHeader>Other</SectionHeader>
       <ul>
         <Li>
           <A href="https://developer.apple.com/design/human-interface-guidelines">
@@ -268,7 +272,7 @@ export default function DesignSystems() {
         </Li>
       </ul>
 
-      <SectionHeader className="mt-8 mb-6">Novelty</SectionHeader>
+      <SectionHeader>Novelty</SectionHeader>
       <ul>
         <Li>
           <A href="https://jdan.github.io/98.css/">98.css: Windows 98</A>
