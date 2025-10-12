@@ -1,9 +1,9 @@
 import BaseComponent, { BaseComponentProps } from "./BaseComponent";
 
 const variants = {
-  default: "text-white list-disc ml-5 mb-2 max-w-lg",
-  disc: "text-white list-disc ml-5 mb-2 max-w-lg",
-  decimal: "text-white list-decimal ml-5 mb-2 max-w-lg",
+  default: "list-disc ml-5 mb-2 max-w-lg",
+  disc: "list-disc ml-5 mb-2 max-w-lg",
+  decimal: "list-decimal ml-5 mb-2 max-w-lg",
 };
 
 /** Li

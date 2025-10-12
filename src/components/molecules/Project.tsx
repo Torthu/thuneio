@@ -22,9 +22,7 @@ export default function Project({
   return (
     <CvCard
       as={Button}
-      className={`${
-        toggle ? "bg-gray-700" : "bg-gray-700/[.2]"
-      } hover:bg-gray-700`}
+      variant={toggle ? "interactive-active" : "interactive"}
       onClick={() => setToggle(!toggle)}
     >
       <FlexRow className="items-center justify-between gap-4">

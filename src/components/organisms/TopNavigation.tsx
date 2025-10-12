@@ -6,10 +6,10 @@ const NavItem = (props: any) => (
 
 export default function TopNavigation() {
   return (
-    <FlexRow className="mx-auto gap-2 w-full p-2 bg-black bg-opacity-20 items-center space-between rounded-xl shadow-md">
+    <FlexRow className="mx-auto gap-2 w-full p-4 border-b border-gray-400 dark:border-gray-600 print:hidden items-center space-between">
       <FlexRow className="items-center gap-2">
         <Avatar
-          variant="smallSquare"
+          variant="small"
           className="print:w-16 print:h-16"
           avatar="/torstein.jpeg"
         />

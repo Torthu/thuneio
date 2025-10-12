@@ -15,7 +15,7 @@ export default function H3({
   as = "h3",
   ...rest
 }: BaseComponentProps) {
-  className = `text-lg font-extralight text-slate-100 print:font-normal print:text-md ${className}`;
+  className = `text-lg font-extralight tprint:font-normal print:text-md ${className}`;
 
   return <BaseComponent {...rest} className={className} as={as} />;
 }

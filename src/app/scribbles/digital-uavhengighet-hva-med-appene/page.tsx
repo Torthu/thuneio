@@ -18,8 +18,9 @@ export default function Page() {
         Oppdatert <DateDisplay as="span" date={new Date("2025-10-03")} />
       </FlexRow>
       <P>
-        Kritisk norsk infrastruktur som BankID må fungere, men vi har solgt
-        sjelen til amerikanske IT-monopolister, er det så lurt da?
+        Kritisk norsk infrastruktur som BankID må fungere, uavhengig av
+        politiske vinder i verden, men vi har solgt sjelen til amerikanske
+        IT-monopolister, er det så lurt da?
       </P>
 
       <SectionHeader>Apper og appbutikker er praktisk</SectionHeader>
@@ -30,36 +31,15 @@ export default function Page() {
         leverer apper som lever i lukkede, sikrede økosystemer.
       </P>
       <P>
+        Gjennom en årrekke har vi også fått stadig strengere sikkerhetsrutiner.
+        Apper kan i dag sjekke om de kjører på et operativsystem som Google
+        eller Apple går god for, kort forklart om det er det samme
+        operativsystemet som mobilen ble levert med, og så nekte å starte dersom
+        de oppdager at noen har tuklet med det.
+      </P>
+      <P>
         Google Play og App Store er jo store og sikre systemer som vi kan stole
         på. Eller?
-      </P>
-
-      <SectionHeader>Alternative appbutikker</SectionHeader>
-      <P>
-        Mens man på iOS aldri har hatt mulighet til å bevege seg utenfor Apple
-        sitt eget økosystem har man på Android siden starten kunnet installere
-        egne applikasjoner, såkalte apk-er, utenom Google Play. Dette kalles
-        &quot;sideloading&quot;. Dette er en prosess som kan virke innviklet og
-        skummelt for den jevne bruker, men har latt et rikt økosystem av
-        uavhengige applikasjoner blomstre litt utenfor allfarvei.
-      </P>
-      <P>
-        En alternativ appbutikk, som utelukkende består av{" "}
-        <A href="https://en.wikipedia.org/wiki/Free_and_open-source_software">
-          fri programvare
-        </A>
-        , er <A href="https://f-droid.org/">F-Droid</A>. Her har man mulighet
-        til å laste ned programvare som Google ikke nødvendigvis har lyst til å
-        tilby i sin egen appbutikk, slik som Youtube Vanced - en
-        youtube-applikasjon der man slipper reklame.
-      </P>
-      <P>
-        Et annet alternativ er{" "}
-        <A href="https://store.auroraoss.com/">Aurora Store</A>, som
-        redistribuerer applikasjoner fra blant annet Google Play og Samsung
-        Galaxy Store, slik at man slipper å bruke Google og Samsung sine egne
-        løsninger. Dette lar deg installere applikasjoner på Android-varianter
-        som ikke har disse butikkene forhåndsinstallert.
       </P>
 
       <SectionHeader>Monopolistene har kontroll</SectionHeader>
@@ -84,14 +64,29 @@ export default function Page() {
         kontrollerer Google.
       </P>
       <P>
-        Google kan da, uten å konferere med andre, trekke tilbake muligheten for
-        å installere en gitt applikasjon på Android.
+        Google argumenterer med at attesteringen er et sikkerhetstiltak, og
+        refererer selv til at det er{" "}
+        <A href="https://android-developers.googleblog.com/2025/08/elevating-android-security.html)">
+          over 50 ganger mer skadelig programvare tilgjengelig gjennom
+          tredjepartstjenester enn det er gjennom Googles egen Play Store
+        </A>
+        . Attesteringen gjør at Google kan, uten å konferere med andre, trekke
+        tilbake muligheten for å installere en gitt applikasjon på Android.
+      </P>
+      <P>
+        Hva hvis Google plutselig sier at du ikke får lov til å installere
+        BankID-appen?
       </P>
       <P>
         Hva skjer egentlig om kritisk norsk infrastruktur plutselig strider mot
         Apple og Googles retningslinjer og policyer? Hva hvis USA plutselig
-        krever at disse selskapene skal hindre kritisk norsk infrastruktur? Hva
-        hvis de finner på å gjøre det på egenhånd?
+        krever at disse selskapene skal hindre kritisk norsk infrastruktur?
+      </P>
+      <P>
+        Ville vi stolt på kinesiske Tencent eller russiske Yandex med makten til
+        å bestemme hvilke applikasjoner vi kan installere? Uansett hvor disse
+        selskapene skulle komme fra er det risiko for at politikken kan komme i
+        veien, har vi land vi kan stole på til evig tid?
       </P>
       <P>
         Potensielt kritiske apper inkluderer autentisering (BankID), bank og
@@ -131,7 +126,35 @@ export default function Page() {
         finske <A href="https://sailfishos.org/">SailfishOS</A>.
       </P>
 
-      <SectionHeader>Endingeslogg</SectionHeader>
+      <SectionHeader>Alternative appbutikker</SectionHeader>
+      <P>
+        Mens man på iOS aldri har hatt mulighet til å bevege seg utenfor Apple
+        sitt eget økosystem har man på Android siden starten kunnet installere
+        egne applikasjoner, såkalte apk-er, utenom Google Play. Dette kalles
+        &quot;sideloading&quot;. Dette er en prosess som kan virke innviklet og
+        skummelt for den jevne bruker, men har latt et rikt økosystem av
+        uavhengige applikasjoner blomstre litt utenfor allfarvei.
+      </P>
+      <P>
+        En alternativ appbutikk, som utelukkende består av{" "}
+        <A href="https://en.wikipedia.org/wiki/Free_and_open-source_software">
+          fri programvare
+        </A>
+        , er <A href="https://f-droid.org/">F-Droid</A>. Her har man mulighet
+        til å laste ned programvare som Google ikke nødvendigvis har lyst til å
+        tilby i sin egen appbutikk, slik som Youtube Vanced - en
+        youtube-applikasjon der man slipper reklame.
+      </P>
+      <P>
+        Et annet alternativ er{" "}
+        <A href="https://store.auroraoss.com/">Aurora Store</A>, som
+        redistribuerer applikasjoner fra blant annet Google Play og Samsung
+        Galaxy Store, slik at man slipper å bruke Google og Samsung sine egne
+        løsninger. Dette lar deg installere applikasjoner på Android-varianter
+        som ikke har disse butikkene forhåndsinstallert.
+      </P>
+
+      <SectionHeader>Endringslogg</SectionHeader>
       <ul>
         <Li>
           <DateDisplay as="span" date={new Date("2025-10-03")} />: La til lenke

@@ -10,7 +10,7 @@ const variants = {
   disabled:
     "rounded bg-gray-600 px-2 py-1 font-medium text-white hover:bg-gray-700",
   navigation:
-    "p-2 border text-sm border-gray-700 hover:bg-gray-700 hover:cursor-pointer rounded-lg items-center",
+    "p-2 border text-sm border-gray-300 dark:border-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 hover:cursor-pointer rounded-lg items-center",
 };
 
 /** Button

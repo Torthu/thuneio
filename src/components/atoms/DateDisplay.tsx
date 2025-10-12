@@ -1,7 +1,7 @@
 import BaseComponent, { BaseComponentProps } from "./BaseComponent";
 
 const variants = {
-  default: "text-gray-400",
+  default: "opacity-60",
 };
 
 interface DateDisplayProps extends BaseComponentProps<keyof typeof variants> {

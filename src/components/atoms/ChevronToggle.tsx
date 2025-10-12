@@ -12,7 +12,7 @@ export default function ChevronToggle({
   ...rest
 }: ChevronToggleProps) {
   const innerClasses =
-    "flex items-center justify-center w-6 h-6 rounded-full border border-gray-200 print:hidden";
+    "flex items-center justify-center w-6 h-6 rounded-full border border-gray-900 dark:border-gray-200 print:hidden";
   return (
     <div className="flex no-flex">
       <FlexCol className={`${innerClasses} ${className}`} {...rest}>

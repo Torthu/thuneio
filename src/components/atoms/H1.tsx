@@ -15,7 +15,7 @@ export default function H1({
   as = "h1",
   ...rest
 }: BaseComponentProps) {
-  className = `font-bold text-2xl lg:text-4xl tracking-tight text-slate-100 print:text-lg ${className}`;
+  className = `font-bold text-2xl lg:text-4xl tracking-tight print:text-lg ${className}`;
 
   return <BaseComponent {...rest} className={className} as={as} />;
 }
