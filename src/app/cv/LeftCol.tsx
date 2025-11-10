@@ -11,7 +11,7 @@ export default function LeftCol({ lang }: { lang: "en" | "no" }) {
         />
         <H1 className="flex flex-col gap-2 justify-center items-center print:gap-1 print:items-start print:text-left text-center">
           <span>Torstein Thune</span>
-          <span className="font-light">
+          <span className="font-light text-lg">
             {lang === "en"
               ? "Senior Front-end developer"
               : "Senior frontend-utvikler"}{" "}
@@ -20,6 +20,7 @@ export default function LeftCol({ lang }: { lang: "en" | "no" }) {
             </div>
           </span>
         </H1>
+        &quot;I fight for the user&quot;
       </div>
 
       <FlexRow className="justify-center gap-2 text-center lg:flex-col lg:w-44 lg:text-left print:hidden">

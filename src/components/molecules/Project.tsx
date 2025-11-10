@@ -44,7 +44,7 @@ export default function Project({
       </FlexRow>
 
       <FlexCol
-        className={`border-l-2 border-gray-600 px-2 gap-2 mt-2 ${
+        className={`border-l-2 border-gray-600 px-2 gap-2 mt-2 transition-all duration-75 ${
           toggle ? "" : "hidden"
         } print:block print:border-0 print:px-0`}
       >
