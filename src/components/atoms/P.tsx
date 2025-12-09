@@ -10,7 +10,7 @@ export default function Paragraph({
   as = "p",
   ...rest
 }: BaseComponentProps) {
-  className = `mb-2 ${className}`;
+  className = `${className}`;
 
   return <BaseComponent {...rest} className={className} as={as} />;
 }
